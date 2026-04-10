@@ -571,4 +571,20 @@
 
 ---
 
-## 📁 File Structure for Your GitHub Repo
+## 📁 File Structure for my GitHub Repo
+
+AI-102-Study-Plan/
+├── README.md (this file)
+├── roadmap.md (Mermaid diagram)
+├── exam_tips.md
+├── glossary.md
+├── free_lab_replacement.md
+├── setup_instructions.md
+├── summaries/
+│ ├── 01_ai_intro.md
+│ ├── 02_ml_concepts.md
+│ ├── ...
+│ └── 34_multi_agent.md
+└── resources/
+├── video_links.md
+└── practice_questions.md
