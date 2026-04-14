@@ -1,590 +1,453 @@
-# AI-102 Azure AI Engineer Associate – Study Plan
-**Exam Date:** June 25, 2026 (in-person)  
-**Study Period:** April 10 – June 24, 2026  
-**Total Available Hours:** 291 hours  
-**Language:** Python  
-**Cost:** €0 (100% free resources)
+# AI-102 Study Plan 
+
+## Exam Date: June 25, 2026
+## Study Period: April 13 – June 24, 2026
+## Total Study Days: 53 weekdays
+## Total Hours: 205 hours
+## Max Hours Per Day: 5h (never more)
+## Weekend Study: NONE
 
 ---
 
-## 📊 Study Phase Overview
+## 📊 Phase Overview
 
-| Phase | Dates | Hours/Day | Total Hours | Focus |
-|-------|-------|-----------|-------------|-------|
-| **Phase 1: Foundation** | Apr 10 – May 8 | 2h/day | 56h | AI-900 concepts + Azure basics |
-| **Phase 2: Deep Dive** | May 9 – Jun 17 | 5h/day | 235h | AI-102 skills + hands-on (videos) |
-| **Phase 3: Final Review** | Jun 18 – Jun 24 | Variable | Built into Phase 2 | Practice exams + weak areas |
-
----
-
-## 🎯 Learning Approach (Option C – Hybrid Free)
-
-### What You'll Do:
-1. **Read** Microsoft Learn modules (100% free, no login)
-2. **Watch** video walkthroughs instead of paid labs (see `free_lab_replacement.md`)
-3. **Use** sandbox environments when available (marked with 🟢)
-4. **Study** Python code examples (understand without running)
-5. **Take** knowledge checks after each module
-6. **Review** memory palace summaries (see `/summaries/` folder)
-
-### Time Allocation Per Session:
-- **60%** Reading/watching (primary learning)
-- **25%** Note-taking + memory palace review
-- **15%** Knowledge checks + self-quizzing
+| Phase | Dates | Days | Hours/Day | Total | Focus |
+|-------|-------|------|-----------|-------|-------|
+| **1: Foundation** | Apr 13 – May 8 | 20 days | 2h | 40h | AI-900 concepts |
+| **2: Deep Dive** | May 9 – Jun 13 | 26 days | 5h | 130h | AI-102 domains |
+| **3: Final Prep** | Jun 15 – Jun 24 | 7 days | 5h | 35h | Review + practice |
+| **TOTAL** | | **53 days** | | **205h** | |
 
 ---
 
-## 📅 PHASE 1: Foundation Building (Apr 10 – May 8)
-**56 hours total • 2 hours/day • 28 study days**
+## 🎯 Study Structure Based on Exam Prep Guide
 
-### Week 1: April 10-14 (Mon-Fri) – AI Fundamentals
+### Bobby Russell's 6 Episodes = Your 6 Study Blocks
 
-#### Day 1 (Apr 10) – Introduction to AI
-- **Time:** 2h
-- **Modules:**
-  - Introduction to AI concepts (40 min read)
-  - Get started with Microsoft Foundry (50 min read)
-- **Memory Palace:** `summaries/01_ai_intro.md`
-- **Video:** John Savill "What is AI" (30 min)
-- **Tasks:**
-  - Define: AI, ML, generative AI, agents
-  - Understand: Azure subscription structure (even though you won't create one)
-  - Quiz: Module knowledge checks
-
-#### Day 2 (Apr 11) – Machine Learning Fundamentals
-- **Time:** 2h
-- **Module:** Introduction to machine learning concepts (1h 33min)
-- **Memory Palace:** `summaries/02_ml_concepts.md`
-- **Video:** Andrew Brown "ML Basics" (45 min)
-- **Key Concepts:**
-  - Supervised vs unsupervised learning
-  - Regression, classification, clustering
-  - Training vs inference
-- **Tasks:**
-  - Draw diagrams: types of ML models
-  - Memorize: when to use each model type
-
-#### Day 3 (Apr 12) – Azure Machine Learning
-- **Time:** 2h
-- **Module:** Get started with machine learning in Azure (1h 6min)
-- **Video:** Adam Marczak "Azure ML Studio Walkthrough" 🎥 (35 min)
-- **Memory Palace:** `summaries/03_azure_ml.md`
-- **Tasks:**
-  - Understand Azure ML workspace structure
-  - Learn: Automated ML concept (you'll see this in exam)
-  - Watch: Someone else do the lab (video replaces hands-on)
-
-#### Day 4 (Apr 13) – Generative AI & Agents Introduction
-- **Time:** 2h
-- **Modules:**
-  - Introduction to generative AI and agents (37 min)
-  - Get started with generative AI in Foundry (1h 7min)
-- **Memory Palace:** `summaries/04_genai_agents.md`
-- **Video:** Microsoft Developer "Foundry Overview" (40 min)
-- **Key Concepts:**
-  - LLMs (Large Language Models)
-  - Prompts vs completions
-  - What is an AI agent
-  - Model catalog vs deployed models
-
-#### Day 5 (Apr 14) – Weekly Review + Practice
-- **Time:** 2h
-- **Tasks:**
-  - Review all 4 memory palace files
-  - Retake all knowledge checks (aim for 100%)
-  - Watch: Microsoft Learn Live "AI Basics Cram" (1h)
-  - Create flashcards for weak areas
+| Episode | Exam Domain | Weight | Study Hours |
+|---------|-------------|--------|-------------|
+| Ep 1 | Plan & Manage Azure AI | 20-25% | 30h |
+| Ep 2 | Generative AI Solutions | 15-20% | 35h |
+| Ep 3 | Agent Solutions | 5-10% | 15h |
+| Ep 4 | Computer Vision | 10-15% | 25h |
+| Ep 5 | NLP Solutions | 15-20% | 25h |
+| Ep 6 | Info Extraction & Knowledge Mining | 15-20% | 25h |
+| — | Practice Exams & Final Review | — | 20h |
+| — | AI-900 Foundation (built into above) | — | 30h |
 
 ---
 
-### Week 2: April 15-21 (Mon-Fri) – Language & Speech
+## ==============================
+## PHASE 1: FOUNDATION (Apr 13 – May 8)
+## 20 weekdays × 2 hours = 40 hours
+## ==============================
 
-#### Day 6 (Apr 15) – Natural Language Processing Concepts
-- **Time:** 2h
-- **Module:** Introduction to NLP concepts (30 min)
-- **Memory Palace:** `summaries/05_nlp_concepts.md`
-- **Video:** John Savill "NLP Explained" (35 min)
-- **Key Concepts:**
-  - Tokenization
-  - Embeddings
-  - Semantic vs statistical analysis
-- **Tasks:**
-  - Understand: How text becomes numbers for AI
-  - Memorize: Common NLP tasks (sentiment, entity extraction, etc.)
+### WEEK 1: Apr 13-17 (Mon-Fri) — What is AI?
 
-#### Day 7 (Apr 16) – Azure Language Service
-- **Time:** 2h
-- **Module:** Get started with NLP in Foundry (45 min)
-- **Module:** Analyze text with Azure Language (46 min)
-- **Video:** Adam Marczak "Language Service Demo" 🎥 (25 min)
-- **Memory Palace:** `summaries/06_azure_language.md`
-- **Key Concepts:**
-  - Language detection
-  - Entity recognition
-  - PII (Personally Identifiable Information) detection
-  - Sentiment analysis
+#### Day 1 (Mon Apr 13) — 2h
+**Topic: AI, ML, and Generative AI Fundamentals**
+- Read: "Introduction to AI concepts" module (40 min)
+- Read: "Introduction to generative AI and agents" module (37 min)
+- Review: Memory Palace #01 (AI Intro)
+- Remaining time: Self-test + glossary terms
 
-#### Day 8 (Apr 17) – Speech Services
-- **Time:** 2h
-- **Module:** Introduction to AI speech concepts (28 min)
-- **Module:** Get started with speech in Foundry (41 min)
-- **Video:** John Savill "Speech-to-Text & Text-to-Speech" (30 min)
-- **Memory Palace:** `summaries/07_speech.md`
-- **Key Concepts:**
-  - Speech recognition (STT)
-  - Speech synthesis (TTS)
-  - SSML (Speech Synthesis Markup Language)
+**What Bobby Russell says you need to know:**
+> "Be able to provide a brief overview of Azure AI Foundry 
+> and how it benefits developers"
 
-#### Day 9 (Apr 18) – Translation Services
-- **Time:** 2h
-- **Module:** Translate text and speech (48 min)
-- **Video:** Microsoft Developer "Translator API Walkthrough" (30 min)
-- **Memory Palace:** `summaries/08_translation.md`
-- **Tasks:**
-  - Understand: Real-time translation API
-  - Learn: Custom translation models
-  - Study: Python code examples for translation
-
-#### Day 10 (Apr 21) – Weekly Review
-- **Time:** 2h
-- **Tasks:**
-  - Review summaries 05-08
-  - Watch: Andrew Brown "Language & Speech Section" (45 min)
-  - Practice: Identify service for each scenario
+**Key concepts (beginner definitions):**
+- **AI** = Making machines smart
+- **ML** = Machines learn from examples
+- **Generative AI** = AI that creates new content
+- **Agent** = AI that can take actions (not just talk)
 
 ---
 
-### Week 3: April 22-28 (Mon-Fri) – Computer Vision
+#### Day 2 (Tue Apr 14) — 2h
+**Topic: Machine Learning Types**
+- Read: "Introduction to machine learning concepts" (1h 33min)
+- Focus on: Classification, Regression, Clustering
+- Review: Memory Palace #02 (ML Concepts)
 
-#### Day 11 (Apr 22) – Computer Vision Fundamentals
-- **Time:** 2h
-- **Module:** Introduction to computer vision concepts (34 min)
-- **Video:** John Savill "How CNNs Work" (40 min)
-- **Memory Palace:** `summaries/09_cv_concepts.md`
-- **Key Concepts:**
-  - CNNs (Convolutional Neural Networks) – simplified explanation
-  - Vision transformers
-  - Image classification vs object detection
-
-#### Day 12 (Apr 23) – Azure Vision Service
-- **Time:** 2h
-- **Module:** Get started with computer vision in Foundry (50 min)
-- **Module:** Analyze images (44 min)
-- **Video:** Adam Marczak "Vision API Demo" 🎥 (30 min)
-- **Memory Palace:** `summaries/10_azure_vision.md`
-- **Key Concepts:**
-  - Image Analysis API
-  - OCR (Optical Character Recognition)
-  - Object detection
-  - Face detection
-
-#### Day 13 (Apr 24) – OCR & Text Extraction
-- **Time:** 2h
-- **Module:** Read text in images (45 min)
-- **Video:** John Savill "OCR Deep Dive" (35 min)
-- **Memory Palace:** `summaries/11_ocr.md`
-- **Tasks:**
-  - Understand: Read API vs OCR API
-  - Learn: Handwriting recognition
-  - Study: JSON response structure
-
-#### Day 14 (Apr 25) – Custom Vision
-- **Time:** 2h
-- **Module:** Classify images (1h 3min)
-- **Video:** Adam Marczak "Custom Vision Training" 🎥 (40 min)
-- **Memory Palace:** `summaries/12_custom_vision.md`
-- **Key Concepts:**
-  - Training custom models
-  - Image tagging
-  - Model evaluation metrics
-
-#### Day 15 (Apr 28) – Video Analysis
-- **Time:** 2h
-- **Module:** Analyze video (48 min)
-- **Video:** Microsoft Developer "Video Indexer Walkthrough" (35 min)
-- **Memory Palace:** `summaries/13_video.md`
-- **Weekly Review:** Summaries 09-13
+**Key concepts:**
+- **Classification** = Sort into categories (spam/not spam)
+- **Regression** = Predict a number (house price)
+- **Clustering** = Find natural groups (customer segments)
+- **Supervised** = Learn from labeled examples
+- **Unsupervised** = Find patterns without labels
 
 ---
 
-### Week 4: April 29 – May 5 (Mon-Fri) – Information Extraction
+#### Day 3 (Wed Apr 15) — 2h
+**Topic: Azure AI Platform Overview**
+- Read: "Get started with Microsoft Foundry" module (50 min)
+- Watch: Bobby Russell Episode 1 (12 min) — **watch TWICE**
+- Study: Azure resource hierarchy (Subscription → Resource Group → Resource)
+- Review: Memory Palace #03 (Azure ML)
 
-#### Day 16 (Apr 29) – Information Extraction Concepts
-- **Time:** 2h
-- **Module:** Introduction to AI-powered information extraction (28 min)
-- **Video:** John Savill "Document AI Overview" (30 min)
-- **Memory Palace:** `summaries/14_info_extraction.md`
-- **Key Concepts:**
-  - OCR vs intelligent extraction
-  - Field extraction
-  - Form understanding
+**What Bobby says:**
+> "All paths lead to a project. Take time to become familiar 
+> with navigating through the Foundry portal."
 
-#### Day 17 (Apr 30) – Azure Content Understanding
-- **Time:** 2h
-- **Module:** Create multimodal analysis solution (1h)
-- **Video:** Adam Marczak "Content Understanding Demo" 🎥 (35 min)
-- **Memory Palace:** `summaries/15_content_understanding.md`
-- **Key Concepts:**
-  - Multimodal content (text + images + video)
-  - Document summarization
-  - Entity extraction from complex documents
-
-#### Day 18 (May 1) – Document Intelligence (Part 1)
-- **Time:** 2h
-- **Module:** Use prebuilt Document Intelligence models (21 min)
-- **Video:** John Savill "Form Recognizer Models" (30 min)
-- **Memory Palace:** `summaries/16_doc_intelligence_1.md`
-- **Key Concepts:**
-  - Prebuilt models (invoices, receipts, IDs, etc.)
-  - Layout analysis
-  - Key-value pair extraction
-
-#### Day 19 (May 2) – Document Intelligence (Part 2)
-- **Time:** 2h
-- **Module:** Extract data from forms (49 min)
-- **Video:** Adam Marczak "Custom Form Models" 🎥 (40 min)
-- **Memory Palace:** `summaries/17_doc_intelligence_2.md`
-- **Tasks:**
-  - Understand: Custom model training
-  - Learn: Composed models
-  - Study: Python SDK for Document Intelligence
-
-#### Day 20 (May 5) – Azure AI Search Introduction
-- **Time:** 2h
-- **Module:** Create knowledge mining solution (1h 8min)
-- **Video:** John Savill "AI Search Architecture" (45 min)
-- **Memory Palace:** `summaries/18_ai_search.md`
-- **Key Concepts:**
-  - Indexers
-  - Skillsets
-  - Knowledge store
-  - Semantic search
+**Key concepts:**
+- **Subscription** = Your billing account
+- **Resource Group** = Folder for related resources
+- **Resource** = Individual service (like Azure Vision)
+- **Foundry Hub** = Top container for AI projects
+- **Foundry Project** = Workspace for one AI app
+- **Endpoint** = URL where you call your AI service
+- **API Key** = Password to access the service
 
 ---
 
-### Week 5: May 6-8 (Mon-Wed) – Phase 1 Consolidation
+#### Day 4 (Thu Apr 16) — 2h
+**Topic: Azure AI Services Overview (Which Service for What)**
+- Study the Service Selection table (from exam_tips.md)
+- Watch: John Savill "Azure AI Services Overview" (~30 min)
+- Create your own decision tree on paper
 
-#### Day 21 (May 6) – Full Review Day 1
-- **Time:** 2h
-- **Tasks:**
-  - Re-read summaries 01-09
-  - Identify weak areas
-  - Create concept map connecting all services
-  - Watch: Microsoft Learn Live "AI-900 Cram Session" (full)
+**What Bobby says:**
+> "Know the use cases for computer vision, language services, 
+> information extraction. Be able to list appropriate AI solutions 
+> along with their use cases."
 
-#### Day 22 (May 7) – Full Review Day 2
-- **Time:** 2h
-- **Tasks:**
-  - Re-read summaries 10-18
-  - Retake ALL knowledge checks
-  - Practice: "Which Azure service for this scenario?" drill
-  - Study: Service comparison table (I'll create this)
+**CRITICAL TABLE — Memorize this:**
 
-#### Day 23 (May 8) – Practice Assessment
-- **Time:** 2h
-- **Tasks:**
-  - Take FREE official practice assessment for AI-102
-  - Link: https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification
-  - Review wrong answers carefully
-  - Note gaps → add to Phase 2 focus list
-
----
-
-## 📅 PHASE 2: AI-102 Deep Dive (May 9 – June 17)
-**235 hours total • 5 hours/day • 47 study days**
-
-### Week 6-7: May 9-23 – Planning & Managing Azure AI Solutions
-
-#### Day 24 (May 9) – Planning AI Solutions
-- **Time:** 5h
-- **Module:** Plan and prepare to develop AI solutions (1h)
-- **Video:** John Savill "AI Solution Architecture" (1h 15min)
-- **Memory Palace:** `summaries/19_planning_ai.md`
-- **Key Concepts:**
-  - Responsible AI principles
-  - Choosing the right service
-  - Cost management
-  - CI/CD for AI
-- **Tasks:**
-  - Create decision tree: which service when
-  - Study: Azure AI pricing models (conceptual, not actual prices)
-  - Practice: Architecture diagrams
-
-#### Day 25 (May 10) – Microsoft Foundry Deep Dive
-- **Time:** 5h
-- **Breakdown:**
-  - 2h: Read documentation on Foundry hubs, projects, resources
-  - 2h: Watch Adam Marczak "Foundry Portal Complete Tour" 🎥
-  - 1h: Study Python SDK setup (even without running)
-- **Memory Palace:** `summaries/20_foundry_platform.md`
-- **Key Concepts:**
-  - Hub vs Project structure
-  - Resource provisioning
-  - Endpoints and deployments
-  - Model catalog navigation
-
-#### Day 26 (May 11) – Managing & Securing AI Resources
-- **Time:** 5h
-- **Focus:** Security, authentication, cost management
-- **Video:** John Savill "Azure AI Security Best Practices" (1h 30min)
-- **Memory Palace:** `summaries/21_security.md`
-- **Key Concepts:**
-  - Managed identities
-  - API key rotation
-  - Azure RBAC (Role-Based Access Control)
-  - Virtual networks for AI services
-  - Monitoring with Azure Monitor
-- **Tasks:**
-  - Memorize: Security best practices
-  - Understand: Authentication methods (API key vs Azure AD)
-
-#### Day 27 (May 12) – Responsible AI Implementation
-- **Time:** 5h
-- **Video:** Microsoft Developer "Responsible AI Tools" (1h)
-- **Module content:** Content Safety, filters, prompt shields
-- **Memory Palace:** `summaries/22_responsible_ai.md`
-- **Key Concepts:**
-  - Content moderation
-  - Harmful content categories
-  - Prompt injection attacks
-  - Content filters configuration
-  - Blocklists
-- **Tasks:**
-  - Study: Real examples of jailbreak attempts
-  - Learn: How to configure severity thresholds
-
-#### Day 28-29 (May 13-14) – Model Catalog & Deployment
-- **Time:** 10h total (5h each day)
-- **Module:** Choose and deploy models from catalog (40 min)
-- **Video:** Adam Marczak "Model Deployment Walkthrough" 🎥 (2h)
-- **Memory Palace:** `summaries/23_model_deployment.md`
-- **Key Concepts:**
-  - Model types in catalog (Azure OpenAI, open-source, etc.)
-  - Deployment options (managed, serverless)
-  - Scaling and quota management
-  - Model versioning
-- **Day 28 Tasks:**
-  - Study all model types available
-  - Understand when to use each
-- **Day 29 Tasks:**
-  - Learn deployment configurations
-  - Study Python code for deployment
-  - Practice: Read API responses
-
-#### Day 30-31 (May 15-16) – Monitoring & Diagnostics
-- **Time:** 10h total
-- **Video:** John Savill "Azure Monitor for AI" (1h 30min)
-- **Memory Palace:** `summaries/24_monitoring.md`
-- **Key Concepts:**
-  - Metrics (latency, tokens, errors)
-  - Logging requests
-  - Cost tracking
-  - Performance optimization
-- **Tasks:**
-  - Memorize: Key metrics for each service
-  - Understand: How to read diagnostic logs
-
-#### Day 32 (May 19) – Container Deployments
-- **Time:** 5h
-- **Video:** Adam Marczak "AI in Containers" 🎥 (1h 30min)
-- **Memory Palace:** `summaries/25_containers.md`
-- **Key Concepts:**
-  - Docker basics (simplified for AI)
-  - Azure Container Instances
-  - Edge deployments
-  - Disconnected scenarios
-- **Tasks:**
-  - Understand: Why use containers for AI
-  - Study: Dockerfile examples for AI apps
-
-#### Day 33 (May 20) – CI/CD for AI Solutions
-- **Time:** 5h
-- **Video:** John Savill "MLOps Fundamentals" (2h)
-- **Memory Palace:** `summaries/26_cicd.md`
-- **Key Concepts:**
-  - Azure DevOps for AI
-  - GitHub Actions integration
-  - Model versioning in production
-  - A/B testing deployments
-
-#### Day 34-35 (May 21-22) – Review Week 6-7
-- **Time:** 10h total
-- **Tasks:**
-  - Review summaries 19-26
-  - Create comparison tables
-  - Practice scenarios
-  - Watch recap videos
-
-#### Day 36 (May 23) – Mini Practice Test
-- **Time:** 5h
-- **Task:** Create your own practice questions based on Week 6-7
-- **Review wrong answers**
+| Task | Service |
+|------|---------|
+| Analyze text sentiment | Azure Language |
+| Extract entities from text | Azure Language |
+| Detect PII in text | Azure Language |
+| Translate text | Azure Translator |
+| Speech to text | Azure Speech |
+| Text to speech | Azure Speech |
+| Analyze images | Azure Vision |
+| Custom image classification | Custom Vision |
+| Extract from invoices | Document Intelligence |
+| Search documents | Azure AI Search |
+| Generate text/images | Azure OpenAI |
+| Build AI agents | Foundry Agent Service |
 
 ---
 
-### Week 8-10: May 26 – June 13 – Generative AI Solutions
+#### Day 5 (Fri Apr 17) — 2h
+**Topic: Week 1 Review + Responsible AI**
+- Read: Responsible AI principles
+- Review all 5 days of notes
+- Retake module knowledge checks
+- Create flashcards for weak areas
 
-#### Day 37-38 (May 26-27) – Generative AI Fundamentals
-- **Time:** 10h total
-- **Module:** Develop AI app with Foundry SDK (55 min)
-- **Video:** John Savill "GenAI Apps from Scratch" (2h 30min)
-- **Memory Palace:** `summaries/27_genai_apps.md`
-- **Key Concepts:**
-  - Foundry SDK structure
-  - Creating projects programmatically
-  - Prompt + completion pattern
-  - Streaming responses
-- **Tasks:**
-  - Study complete Python examples
-  - Memorize SDK methods
+**What Bobby says:**
+> "You'll need to know the six principles and understand 
+> what each specifically covers."
 
-#### Day 39-40 (May 28-29) – Prompt Engineering
-- **Time:** 10h total
-- **Module:** Prompt flow (45 min)
-- **Video:** Microsoft Developer "Prompt Engineering Masterclass" (2h)
-- **Memory Palace:** `summaries/28_prompt_engineering.md`
-- **Key Concepts:**
-  - System vs user prompts
-  - Few-shot learning
-  - Chain-of-thought prompting
-  - Prompt templates
-  - Temperature, top_p parameters
-- **Tasks:**
-  - Study 20+ prompt examples
-  - Learn: When to adjust which parameter
+**The 6 Principles (memorize):**
+1. **Fairness** — No discrimination
+2. **Reliability & Safety** — Works consistently
+3. **Privacy & Security** — Protects data
+4. **Inclusiveness** — Works for everyone
+5. **Transparency** — Explainable decisions
+6. **Accountability** — Humans are responsible
 
-#### Day 41-43 (May 30, Jun 2-3) – RAG (Retrieval Augmented Generation)
-- **Time:** 15h total
-- **Module:** Develop RAG solution (1h 18min)
-- **Video:** Adam Marczak "RAG Deep Dive" 🎥 (2h 30min)
-- **Video:** John Savill "Vector Search Explained" (1h 30min)
-- **Memory Palace:** `summaries/29_rag.md`
-- **Key Concepts:**
-  - What is RAG and why use it
-  - Vector embeddings
-  - Azure AI Search integration
-  - Grounding with your data
-  - Chunking strategies
-  - Semantic ranking
-- **Day 41:** Theory + architecture
-- **Day 42:** Implementation patterns
-- **Day 43:** Practice scenarios
-
-#### Day 44-45 (Jun 4-5) – Azure OpenAI Service
-- **Time:** 10h total
-- **Video:** John Savill "Azure OpenAI Complete Guide" (3h)
-- **Memory Palace:** `summaries/30_azure_openai.md`
-- **Key Concepts:**
-  - GPT-4, GPT-3.5-turbo models
-  - DALL-E for images
-  - Embeddings API
-  - Content filtering
-  - Token limits
-  - Pricing considerations
-- **Tasks:**
-  - Study API request/response formats
-  - Memorize model capabilities
-
-#### Day 46-47 (Jun 6, 9) – Fine-tuning Models
-- **Time:** 10h total
-- **Module:** Fine-tune language model (1h 23min)
-- **Video:** Adam Marczak "Fine-tuning Walkthrough" 🎥 (2h)
-- **Memory Palace:** `summaries/31_fine_tuning.md`
-- **Key Concepts:**
-  - When to fine-tune vs use RAG
-  - Training data preparation
-  - Evaluation metrics
-  - Deployment of fine-tuned models
-
-#### Day 48-49 (Jun 10-11) – Evaluation & Optimization
-- **Time:** 10h total
-- **Module:** Evaluate generative AI performance (38 min)
-- **Video:** Microsoft Developer "Evaluation in Foundry" (1h 30min)
-- **Memory Palace:** `summaries/32_evaluation.md`
-- **Key Concepts:**
-  - Groundedness metrics
-  - Relevance scoring
-  - Coherence evaluation
-  - A/B testing
-  - Human feedback loops
-
-#### Day 50-51 (Jun 12-13) – GenAI Week Review
-- **Time:** 10h total
-- **Review summaries 27-32**
-- **Practice: Build mental model of entire GenAI pipeline**
-- **Watch recap videos**
+**Mnemonic: "FRPITA"**
 
 ---
 
-### Week 11-12: Jun 16-17 – AI Agents
+### WEEK 2: Apr 20-24 (Mon-Fri) — NLP & Speech Fundamentals
 
-#### Day 52 (Jun 16) – AI Agents Fundamentals
-- **Time:** 5h
-- **Module:** Get started with AI agents (49 min)
-- **Module:** Develop agent with Foundry Agent Service (55 min)
-- **Video:** John Savill "What Are AI Agents" (1h)
-- **Memory Palace:** `summaries/33_agents_intro.md`
-- **Key Concepts:**
-  - Agent vs chatbot
-  - Tool calling / function calling
-  - Agent orchestration
-  - State management
+#### Day 6 (Mon Apr 20) — 2h
+**Topic: NLP Fundamentals**
+- Read: "Introduction to NLP concepts" (30 min)
+- Read: "Get started with NLP in Foundry" (45 min)
+- Review: Memory Palace #05 (NLP)
 
-#### Day 53 (Jun 17) – Advanced Agent Patterns
-- **Time:** 5h
-- **Module:** Multi-agent solutions (46 min)
-- **Module:** Agent workflows (1h 4min)
-- **Video:** Microsoft Developer "Multi-Agent Systems" (1h 30min)
-- **Memory Palace:** `summaries/34_multi_agent.md`
-- **Key Concepts:**
-  - Agent collaboration
-  - Handoffs between agents
-  - A2A protocol
-  - MCP (Model Context Protocol)
+**Key concepts:**
+- **Tokenization** = Breaking text into pieces
+- **Embedding** = Converting words to numbers that capture meaning
+- **NER** = Named Entity Recognition (find names, places, orgs)
+- **Sentiment** = Is the text positive/negative/neutral?
 
 ---
 
-## 📅 PHASE 3: Final Review & Practice (Jun 18-24)
-**Built into Phase 2 schedule – final 7 days**
+#### Day 7 (Tue Apr 21) — 2h
+**Topic: Azure Language Service Deep Dive**
+- Read: "Analyze text with Azure Language" module (46 min)
+- Study: API request/response examples
+- Practice: Match task → API method
 
-### Day 54-56 (Jun 18-20) – Comprehensive Review
-- **5h each day = 15h total**
-- **Tasks:**
-  - Review ALL 34 memory palace summaries
-  - Re-watch John Savill "AI-102 Cram" (if exists, else key sections)
-  - Create master comparison tables
-  - Practice: Scenario identification
+**What Bobby says:**
+> "Detecting and redacting sensitive information such as PII 
+> or PHI would use PII detection. If you're looking to extract 
+> categories of information using a model specific to your data, 
+> you'd use custom named entity recognition."
 
-### Day 57-58 (Jun 23-24) – Practice Exams
-- **5h each day = 10h total**
-- **Free practice assessment** (retake if possible)
-- **MeasureUp free questions** (if available)
-- **Review ALL wrong answers deeply**
-
-### Day 59 (Jun 24) – Pre-Exam Calm
-- **2h light review**
-- **No new content**
-- **Read exam tips** (`exam_tips.md`)
-- **Sleep well**
-
-### Day 60 (Jun 25) – EXAM DAY 🎯
+**Key distinction (exam trap!):**
+- **Prebuilt NER** = Recognizes common entities (people, places)
+- **Custom NER** = You train it for YOUR specific entity types
+- **PII detection** = Specifically finds personal data
 
 ---
 
-## 📁 File Structure for my GitHub Repo
+#### Day 8 (Wed Apr 22) — 2h
+**Topic: Speech Services**
+- Read: "Introduction to AI speech concepts" (28 min)
+- Read: "Get started with speech in Foundry" (41 min)
+- Study: SSML examples
 
-AI-102-Study-Plan/
-├── README.md (this file)
-├── roadmap.md (Mermaid diagram)
-├── exam_tips.md
-├── glossary.md
-├── free_lab_replacement.md
-├── setup_instructions.md
-├── summaries/
-│ ├── 01_ai_intro.md
-│ ├── 02_ml_concepts.md
-│ ├── ...
-│ └── 34_multi_agent.md
-└── resources/
-├── video_links.md
-└── practice_questions.md
+**Key concepts:**
+- **STT (Speech-to-Text)** = Converts spoken words to written text
+- **TTS (Text-to-Speech)** = Converts written text to spoken audio
+- **SSML** = XML code that controls HOW text is spoken
+  - Speed, pitch, pauses, emphasis
+- **Custom Speech** = Train for specific accents or terminology
+
+---
+
+#### Day 9 (Thu Apr 23) — 2h
+**Topic: Translation Services**
+- Read: "Translate text and speech" module (48 min)
+- Study: Translation API examples
+- Understand: Custom translation models
+
+**Key concepts:**
+- **Azure Translator** = Converts text between languages
+- **Speech Translation** = Real-time spoken language translation
+- **Custom Translator** = Train on YOUR domain vocabulary
+- **Document Translation** = Translate entire files (PDFs, etc.)
+
+---
+
+#### Day 10 (Fri Apr 24) — 2h
+**Topic: Week 2 Review**
+- Review days 6-9
+- Watch: Bobby Russell Episode 5 (NLP episode) when available
+- Practice: "Which service for this NLP task?" scenarios
+- Retake knowledge checks
+
+---
+
+### WEEK 3: Apr 27 – May 1 (Mon-Fri) — Computer Vision & Video
+
+#### Day 11 (Mon Apr 27) — 2h
+**Topic: Computer Vision Fundamentals**
+- Read: "Introduction to computer vision concepts" (34 min)
+- Read: "Get started with CV in Foundry" (50 min)
+- Study: Image Analysis API features
+
+**What Bobby says:**
+> "Azure AI Vision is used to tag visual features, detect color 
+> schemes, detect domain-specific content, and detect brands. 
+> The Face API is used to verify identities."
+
+**Key concepts:**
+- **Image Analysis** = Tags, captions, objects, color
+- **Face API** = Detect, verify, identify faces
+- **OCR** = Extract text from images
+- **Custom Vision** = Train your own image classifier
+
+---
+
+#### Day 12 (Tue Apr 28) — 2h
+**Topic: Image Analysis & OCR**
+- Read: "Analyze images" module (44 min)
+- Read: "Read text in images" module (45 min)
+- Watch: Video walkthrough of Vision API demo
+
+**Key concepts:**
+- **Read API** = Best for documents, mixed text, handwriting
+- **Image Analysis** = Best for photos, real-world images
+- **JSON response** = Contains tags, objects, captions with confidence scores
+
+---
+
+#### Day 13 (Wed Apr 29) — 2h
+**Topic: Custom Vision**
+- Read: "Classify images" module (1h 3min)
+- Watch: Custom Vision training video walkthrough
+
+**Key concepts:**
+- **Image Classification** = "What is this image?" (cat/dog/bird)
+- **Object Detection** = "WHERE are objects in this image?" (bounding boxes)
+- **Training** = Upload labeled images → train → evaluate → publish
+- **Iteration** = Each training run is an iteration
+
+---
+
+#### Day 14 (Thu Apr 30) — 2h
+**Topic: Object Detection & Video Analysis**
+- Read: "Detect objects in images" module (1h 5min)
+- Read: "Analyze video" module (48 min — partial)
+- Study: Video Indexer capabilities
+
+**Key concepts:**
+- **Video Indexer** = Extracts insights from video
+  - Face identification
+  - OCR (text in video)
+  - Scene segmentation
+  - Topic detection
+  - Spoken language transcription
+- **Spatial Analysis** = Detect people movement in video
+
+---
+
+#### Day 15 (Fri May 1) — 2h
+**Topic: Week 3 Review**
+- Review days 11-14
+- Watch: Bobby Russell Episode 4 (Computer Vision)
+- Practice: "Which Vision API for this?" scenarios
+- Create comparison table: Vision vs Custom Vision vs Face vs Video Indexer
+
+---
+
+### WEEK 4: May 4-8 (Mon-Fri) — Information Extraction & Phase 1 Wrap
+
+#### Day 16 (Mon May 4) — 2h
+**Topic: Document Intelligence**
+- Read: "Use prebuilt Document Intelligence models" (21 min)
+- Read: "Extract data from forms" (49 min)
+- Study: Prebuilt model types
+
+**What Bobby says:**
+> "Understand the four types of models: pre-trained document 
+> analysis, pre-trained scenario-specific, custom extraction, 
+> and custom classification."
+
+**Key concepts:**
+- **Prebuilt models** = Ready to use (invoice, receipt, ID card, business card)
+- **Layout model** = Extracts tables, text, structure from any document
+- **Custom model** = Train on YOUR specific forms
+- **Composed model** = Combines multiple custom models
+
+---
+
+#### Day 17 (Tue May 5) — 2h
+**Topic: Azure AI Search & Knowledge Mining**
+- Read: "Create knowledge mining solution" (1h 8min)
+- Study: Index, Indexer, Skillset concepts
+
+**What Bobby says:**
+> "Know the key strengths of Azure AI Search. You can execute 
+> queries over an index, use its crawler capabilities, and 
+> customize the indexing pipeline."
+
+**Key concepts:**
+- **Index** = Searchable structure of your documents
+- **Indexer** = Process that reads data and populates the index
+- **Skillset** = AI enrichment steps during indexing (OCR, NER, language detection)
+- **Knowledge Store** = Saves enriched data for later use
+- **Data Source** = Where documents live (Blob Storage, SQL, etc.)
+
+---
+
+#### Day 18 (Wed May 6) — 2h
+**Topic: Content Understanding + Multimodal Extraction**
+- Read: "Create multimodal analysis solution" (1h)
+- Study: Content Understanding API
+
+**Key concepts:**
+- **Multimodal** = Analyzes text + images + tables together
+- **Content Understanding** = Newer service for complex documents
+- **OCR Pipeline** = Extract text from scanned documents
+- **Entity extraction** = Find specific data in documents
+
+---
+
+#### Day 19 (Thu May 7) — 2h
+**Topic: Phase 1 Comprehensive Review**
+- Re-read ALL memory palace summaries (01-05)
+- Create master service comparison chart
+- Study: Bobby Russell Episode 1 again (focus on gaps)
+- Review: All module knowledge checks
+
+---
+
+#### Day 20 (Fri May 8) — 2h
+**Topic: First Practice Assessment**
+- Take FREE Microsoft practice assessment
+- Link: https://learn.microsoft.com/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification
+- Record your score
+- List every wrong answer topic
+- These gaps become priority topics for Phase 2
+
+---
+
+## ==============================
+## PHASE 2: AI-102 DEEP DIVE (May 9 – Jun 13)
+## 26 weekdays × 5 hours = 130 hours
+## ==============================
+
+### WEEK 5: May 9-15 — Domain 1: Plan & Manage (Bobby Ep. 1)
+
+#### Day 21 (Mon May 9) — 5h
+**Topic: Azure AI Foundry Platform Deep Dive**
+- **Hour 1:** Re-watch Bobby Russell Episode 1 with notes
+- **Hour 2:** Read "Plan and prepare to develop AI solutions" (1h)
+- **Hour 3:** Study Foundry portal navigation (watch video walkthrough)
+- **Hour 4:** Study: Hub → Project → Resource → Endpoint hierarchy
+- **Hour 5:** Practice: Draw architecture diagrams from memory
+
+**What Bobby says to focus on:**
+> "When you come to the Foundry portal, all paths lead to a project."
+> "Practice creating resources in the Azure AI Foundry portal."
+
+---
+
+#### Day 22 (Tue May 10) — 5h
+**Topic: Model Selection & Deployment**
+- **Hour 1:** Read "Choose and deploy models from catalog" (40 min)
+- **Hour 2:** Study Model Catalog: Azure OpenAI vs open-source vs third-party
+- **Hour 3:** Study deployment types: Serverless vs Managed
+- **Hour 4:** Study: SDK and API patterns (Python code examples)
+- **Hour 5:** Watch: John Savill "Model Deployment" video
+
+**What Bobby says:**
+> "There are over 1,700 models. Know that selecting the right one 
+> is key to enabling the right capabilities, at the right price point, 
+> and with the right protections."
+
+**Key concepts:**
+- **Model Catalog** = Library of available models
+- **Model Benchmarks** = Compare model performance
+- **Serverless** = Pay per use (no infrastructure to manage)
+- **Managed** = Dedicated capacity (more control)
+- **Quota** = Limits on tokens per minute
+
+---
+
+#### Day 23 (Wed May 11) — 5h
+**Topic: SDKs, APIs, and Authentication**
+- **Hour 1:** Study REST API structure (headers, body, response)
+- **Hour 2:** Study Python SDK patterns (AzureKeyCredential, clients)
+- **Hour 3:** Study 3 authentication methods
+- **Hour 4:** Study: Endpoints and keys (how to find and use them)
+- **Hour 5:** Practice: Read code and identify correct patterns
+
+**What Bobby says:**
+> "Make sure you spend extra time reviewing API structures."
+> "Understand the three main ways to authenticate: subscription key, 
+> token, or Entra ID."
+
+**The 3 Authentication Methods (memorize):**
+
+| Method | When to Use | Exam Keyword |
+|--------|-------------|--------------|
+| **API Key** (subscription key) | Simple apps, testing | `Ocp-Apim-Subscription-Key` header |
+| **Token** | Short-lived access | `Authorization: Bearer <token>` |
+| **Entra ID** (formerly Azure AD) | Enterprise, granular permissions | `DefaultAzureCredential()` |
+
+**Python SDK pattern (memorize this structure):**
+```python
+from azure.core.credentials import AzureKeyCredential
+
+# Pattern 1: API Key authentication
+client = SomeAzureClient(
+    endpoint="https://your-resource.azure.com/",
+    credential=AzureKeyCredential("your-key")
+)
+
+# Pattern 2: Entra ID (managed identity)
+from azure.identity import DefaultAzureCredential
+client = SomeAzureClient(
+    endpoint="https://your-resource.azure.com/",
+    credential=DefaultAzureCredential()
+)
